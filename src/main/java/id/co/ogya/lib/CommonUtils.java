@@ -8,6 +8,7 @@ public class CommonUtils {
 //		String generatedId = UUID.randomUUID().toString().replace("-", "");
 //		return generatedId;
 //	}
+
 	
 	public String getShortGeneratedId() {
 		String generatedId = getLongGeneratedId();
